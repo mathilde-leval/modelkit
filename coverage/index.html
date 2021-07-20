@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Coverage report</title>
+    <link rel="icon" sizes="32x32" href="favicon_32.png">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.ba-throttle-debounce.min.js"></script>
+    <script type="text/javascript" src="jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="jquery.hotkeys.js"></script>
+    <script type="text/javascript" src="coverage_html.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(coverage.index_ready);
+    </script>
+</head>
+<body class="indexfile">
+<div id="header">
+    <div class="content">
+        <h1>Coverage report:
+            <span class="pc_cov">98.07%</span>
+        </h1>
+        <img id="keyboard_icon" src="keybd_closed.png" alt="Show keyboard shortcuts" />
+        <form id="filter_container">
+            <input id="filter" type="text" value="" placeholder="filter..." />
+        </form>
+    </div>
+</div>
+<div class="help_panel">
+    <img id="panel_icon" src="keybd_open.png" alt="Hide keyboard shortcuts" />
+    <p class="legend">Hot-keys on this page</p>
+    <div>
+    <p class="keyhelp">
+        <span class="key">n</span>
+        <span class="key">s</span>
+        <span class="key">m</span>
+        <span class="key">x</span>
+        <span class="key">c</span> &nbsp; change column sorting
+    </p>
+    </div>
+</div>
+<div id="index">
+    <table class="index">
+        <thead>
+            <tr class="tablehead" title="Click to sort">
+                <th class="name left headerSortDown shortkey_n">Module</th>
+                <th class="shortkey_s">statements</th>
+                <th class="shortkey_m">missing</th>
+                <th class="shortkey_x">excluded</th>
+                <th class="right shortkey_c">coverage</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr class="total">
+                <td class="name left">Total</td>
+                <td>2019</td>
+                <td>39</td>
+                <td>57</td>
+                <td class="right" data-ratio="1980 2019">98.07%</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr class="file">
+                <td class="name left"><a href="modelkit___init___py.html">modelkit/__init__.py</a></td>
+                <td>5</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="5 5">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="modelkit_api_py.html">modelkit/api.py</a></td>
+                <td>78</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="78 78">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="modelkit_assets___init___py.html">modelkit/assets/__init__.py</a></td>
+                <td>4</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="4 4">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="modelkit_assets_drivers___init___py.html">modelkit/assets/drivers/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="modelkit_assets_drivers_abc_py.html">modelkit/assets/drivers/abc.py</a></td>
+                <td>4</td>
+                <td>0</td>
+                <td>12</td>
+                <td class="right" data-ratio="4 4">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="modelkit_assets_drivers_gcs_py.html">modelkit/assets/drivers/gcs.py</a></td>
+                <td>53</td>
+                <td>1</td>
+                <td>2</td>
+                <td class="right" data-ratio="52 53">98.11%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="modelkit_assets_drivers_local_py.html">modelkit/assets/drivers/local.py</a></td>
+                <td>51</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="51 51">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="modelkit_assets_drivers_retry_py.html">modelkit/assets/drivers/retry.py</a></td>
+                <td>11</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="11 11">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="modelkit_assets_drivers_s3_py.html">modelkit/assets/drivers/s3.py</a></td>
+                <td>49</td>
+                <td>1</td>
+                <td>0</td>
+                <td class="right" data-ratio="48 49">97.96%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="modelkit_assets_errors_py.html">modelkit/assets/errors.py</a></td>
+                <td>22</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="22 22">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="modelkit_assets_manager_py.html">modelkit/assets/manager.py</a></td>
+                <td>115</td>
+                <td>0</td>
+                <td>3</td>
+                <td class="right" data-ratio="115 115">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="modelkit_assets_remote_py.html">modelkit/assets/remote.py</a></td>
+                <td>163</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="163 163">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="modelkit_assets_settings_py.html">modelkit/assets/settings.py</a></td>
+                <td>40</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="40 40">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="modelkit_assets_versioning_py.html">modelkit/assets/versioning.py</a></td>
+                <td>49</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="49 49">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="modelkit_core___init___py.html">modelkit/core/__init__.py</a></td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="1 1">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="modelkit_core_errors_py.html">modelkit/core/errors.py</a></td>
+                <td>102</td>
+                <td>4</td>
+                <td>3</td>
+                <td class="right" data-ratio="98 102">96.08%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="modelkit_core_library_py.html">modelkit/core/library.py</a></td>
+                <td>201</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="201 201">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="modelkit_core_model_py.html">modelkit/core/model.py</a></td>
+                <td>344</td>
+                <td>0</td>
+                <td>6</td>
+                <td class="right" data-ratio="344 344">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="modelkit_core_model_configuration_py.html">modelkit/core/model_configuration.py</a></td>
+                <td>76</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="76 76">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="modelkit_core_models___init___py.html">modelkit/core/models/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="modelkit_core_models_distant_model_py.html">modelkit/core/models/distant_model.py</a></td>
+                <td>51</td>
+                <td>6</td>
+                <td>0</td>
+                <td class="right" data-ratio="45 51">88.24%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="modelkit_core_models_tensorflow_model_py.html">modelkit/core/models/tensorflow_model.py</a></td>
+                <td>160</td>
+                <td>2</td>
+                <td>12</td>
+                <td class="right" data-ratio="158 160">98.75%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="modelkit_core_settings_py.html">modelkit/core/settings.py</a></td>
+                <td>48</td>
+                <td>9</td>
+                <td>0</td>
+                <td class="right" data-ratio="39 48">81.25%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="modelkit_core_types_py.html">modelkit/core/types.py</a></td>
+                <td>13</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="13 13">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="modelkit_testing___init___py.html">modelkit/testing/__init__.py</a></td>
+                <td>6</td>
+                <td>2</td>
+                <td>0</td>
+                <td class="right" data-ratio="4 6">66.67%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="modelkit_testing_fixtures_py.html">modelkit/testing/fixtures.py</a></td>
+                <td>44</td>
+                <td>8</td>
+                <td>0</td>
+                <td class="right" data-ratio="36 44">81.82%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="modelkit_testing_reference_py.html">modelkit/testing/reference.py</a></td>
+                <td>84</td>
+                <td>4</td>
+                <td>0</td>
+                <td class="right" data-ratio="80 84">95.24%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="modelkit_testing_tf_serving_py.html">modelkit/testing/tf_serving.py</a></td>
+                <td>14</td>
+                <td>0</td>
+                <td>5</td>
+                <td class="right" data-ratio="14 14">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="modelkit_utils___init___py.html">modelkit/utils/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="modelkit_utils_cache_py.html">modelkit/utils/cache.py</a></td>
+                <td>57</td>
+                <td>0</td>
+                <td>6</td>
+                <td class="right" data-ratio="57 57">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="modelkit_utils_logging_py.html">modelkit/utils/logging.py</a></td>
+                <td>11</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="11 11">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="modelkit_utils_memory_py.html">modelkit/utils/memory.py</a></td>
+                <td>15</td>
+                <td>0</td>
+                <td>6</td>
+                <td class="right" data-ratio="15 15">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="modelkit_utils_pretty_py.html">modelkit/utils/pretty.py</a></td>
+                <td>49</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="49 49">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="modelkit_utils_pydantic_py.html">modelkit/utils/pydantic.py</a></td>
+                <td>22</td>
+                <td>1</td>
+                <td>0</td>
+                <td class="right" data-ratio="21 22">95.45%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="modelkit_utils_redis_py.html">modelkit/utils/redis.py</a></td>
+                <td>17</td>
+                <td>1</td>
+                <td>2</td>
+                <td class="right" data-ratio="16 17">94.12%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="modelkit_utils_serialization_py.html">modelkit/utils/serialization.py</a></td>
+                <td>9</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="9 9">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="modelkit_utils_tensorflow_py.html">modelkit/utils/tensorflow.py</a></td>
+                <td>51</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="51 51">100.00%</td>
+            </tr>
+        </tbody>
+    </table>
+    <p id="no_rows">
+        No items found using the specified filter.
+    </p>
+</div>
+<div id="footer">
+    <div class="content">
+        <p>
+            <a class="nav" href="https://coverage.readthedocs.io">coverage.py v5.5</a>,
+            created at 2021-07-20 09:44 +0000
+        </p>
+    </div>
+</div>
+</body>
+</html>
